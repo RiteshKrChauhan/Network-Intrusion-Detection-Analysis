@@ -1,0 +1,41 @@
+.dashboard {
+  min-height: 100vh;
+  background: #0a0f1e;
+}
+
+.dashboard-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h2 {
+  font-size: 2rem;
+  color: #f3f4f6;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.dashboard-subtitle {
+  color: #9ca3af;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .dashboard-content {
+    padding: 1rem;
+  }
+
+  .dashboard-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .dashboard-subtitle {
+    font-size: 1rem;
+  }
+}
